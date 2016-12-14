@@ -1,0 +1,168 @@
+/*
+  CIS 197 - React HW
+  Author - Devesh Dayal
+  The one and only CSS stylesheet for the page. Feel free to change things around!
+*/
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Ubuntu, sans-serif;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #17822c;
+  font-size: 18px;
+  margin: 5px;
+}
+
+button {
+  text-transform: uppercase;
+  margin: 2px;
+  display: inline;
+  font-weight: 200;
+  background: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+button:hover {
+  font-weight: 800;
+  border-left: 2px solid #FF7754;
+}
+
+.active {
+  border-left: 2px solid #FF7754;
+  font-weight: 800;
+}
+
+p {
+  border: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+  background-color: #FC277C;
+}
+
+li {
+  height: 50px;
+  float: left
+}
+
+.link:hover {
+  background-color: #e32370;
+}
+
+.link {
+  display: inline;
+  color: white;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container {
+  min-height: 432px;
+  min-width: 576px;
+}
+
+.messageDisp {
+  display: block;
+}
+
+.messageContainer {
+  display: inline;
+  text-align: center;
+  width: 100%;
+}
+
+.centerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.userList {
+  display: inline;
+  width: 100px;
+  float: left;
+}
+
+.displayMessage {
+  float: left;
+  width: 80%;
+}
+
+.displayUser {
+  display: inline;
+}
+
+.userButton {
+  display: block;
+}
+
+.listTitle {
+  font-size: 18px;
+  font-weight: 160;
+  margin-top: 0px;
+}
+
+.message {
+  border: 2px solid #ccc;
+  min-width: 60%;
+  min-height: 400px;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.messageText {
+  min-width: 93%;
+}
+
+.lineMessage {
+  display: inline-table;
+  width: 100%;
+}
+
+.toLeft {
+  float: left;
+}
+
+.toRight {
+  float: right;
+}
+
+.userName {
+  border: 1px solid #ccc;
+  height: ;
+}
+
+.messageText {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.color {
+  background-color: rgba(255, 119, 84, 0.52);
+}
